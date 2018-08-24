@@ -22,11 +22,16 @@ You should obtain a key from [instances.social](https://instances.social/api/tok
 
 To print the current number of users:
 
-`java -jar mastodonusers-[version]-standalone.jar`
+`java -jar mastodonusers-[version]-standalone.jar -v 1`
 
 To log the current users in an EDN file:
 
 `java -jar mastodonusers-[version]-standalone.jar path-to-edn-file`
+
+To log current users in an EDN file and output the file as CSV to the console:
+
+`java -jar mastodonusers-[version]-standalone.jar --csv path-to-edn-file`
+
 
 ## License
 

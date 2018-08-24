@@ -1,4 +1,4 @@
-(defproject mastodonusers "0.1.0"
+(defproject mastodonusers "0.1.1"
   :description "A Clojure app to report and log the current number of users in the fediverse."
   :url "https://github.com/simon-brooke/mastodonusers"
   :license {:name "GNU General Public License,version 2.0"
